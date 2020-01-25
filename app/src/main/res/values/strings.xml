@@ -1,0 +1,248 @@
+<resources>
+    <string name="app_name">Karang Taruna</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_pengurus">Pengurus</string>
+    <string name="menu_kegiatan">Kegiatan</string>
+    <string name="menu_galeri">Galeri</string>
+    <string name="menu_hubungi">Kontak</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_profil_fragment">Hello profiil fragment</string>
+    <string name="hello_pengurus_fragment">Hello pengurus fragment</string>
+    <string name="hello_kegiatan_fragment">Hello kegiatan fragment</string>
+    <string name="hello_galeri_fragment">Hello galeri fragment</string>
+    <string name="hello_kontak_fragment">Hello kontak fragment</string>
+    <string name="nama_pengurus">Nama Pengurus</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="tv_nama_pengurus">Jhon Doe</string>
+    <string name="tv_jabatan">President</string>
+    <string name="alamat">Alamat</string>
+    <string name="tv_alamat">3746  Rollins Road</string>
+    <string name="pengurus">Pengurus</string>
+    <string name="profil">Profil Karang Taruna</string>
+    <string name="kontak">Kontak</string>
+    <string name="kegiatan">Kegiatan</string>
+    <string name="galeri">Galeri</string>
+    <string name="tv_nama_kegiatan">Penggalangan dana untuk warga kurang mampu</string>
+    <string name="tv_deskripsi_kegiatan">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="tv_btn_kontak">Hubungi</string>
+    <string name="galeri_kt">Galeri KarangTaruna</string>
+    <string name="desk_galeri_kt">Beberapa kumpulan foto tentang karang taruna</string>
+    <string name="karangtaruna">Karang Taruna</string>
+    <string name="deskripsi_karangtaruna">Karangtaruna is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="visi_karangtaruna">Visi</string>
+    <string name="misi_karangtaruna">Misi</string>
+    <string name="deskripsi_lokasi">Jalan Gegerkalong Hilir, Bandung, Jawa Barat 40153, ID</string>
+    <string name="satu">1.</string>
+    <string name="visi_satu">Karang Taruna merupakan wadah pembinaan dan pengembangan kreatifitas generasi muda yang berkelanjutan untuk menjalin persaudaraan dan rasa kebersamaan menjadi mitra organiasasi lembaga, baik kepemudaan ataupun pemerintah dalam pengembangan kreatifitas. Kemampuan dibidang Kesejahteraan Sosial baik untuk masyarakat dilingkungan sekitar ataupun diwilayah lain.</string>
+    <string name="dua">2.</string>
+    <string name="visi_dua">Mewujudkan generasi muda yang berilmu pengetahuan, kreatif, Mandiri, tangguh, beriman , berkualitas dan bertanggung jawab.</string>
+    <string name="misi_satu">Terwujudnya pemuda-pemudi yang bertakwa kepada Tuhan Yang Maha Esa penuh perhatian dan peka terhadap masalah dengan daya tahan fisik dan mental yang kuat dan Teguh dalam pendiriannya serta mampu berkreasi dan berkarya di lingkungan masyarakat.</string>
+    <string name="misi_dua">Meningkatkan SDM demi masa depan yang lebik baik melalui bidang masyarakat dan menjalin kerjasama dengan instansi pemerintah ataupun pihak lain, melalui pengembangan kelumpok usaha bersama dalam partispasi positif di revolusi industry 4.0.</string>
+    <string name="tiga">3.</string>
+    <string name="misi_tiga">Terwujudnya kesejahtaraan sosial yang semakin meningkat bagi warga Kelurahan Cigugur Tengah pada umumnya dan khususnya generasi muda usia 13 sampai 45 tahun yang memungkinkan pelaksanaan fungsi sosialnya sebagai manusia pembangunan yang mempu mengatasi masalah sosial dilingkungannya.</string>
+    <string name="misi_empat">Meningkatkan peran pemuda dan perempuan serta memberikan kesadaran pentingnya perlindungan hukum terhadap hak perempuan sebagai anak atau remaja, sebagai istri dan sebagai ibu rumah tangga melalui sosialisasi pembangunan pemberdayaan perempuan yang melibatkan anggota karang taruna.</string>
+    <string name="empat">4.</string>
+    <string name="lima">5.</string>
+    <string name="misi_lima">Turut berpartisispasi dalam upaya peningkatan derajat kesehatan melalui perilaku hidup bersih dan sehat (PHBS) serta malakukan upaya antisipasif dalam rangka menjaga dan melestarikan lingkungan hidup.</string>
+
+    <array name="data_photo_pengurus">
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+    </array>
+
+    <string-array name="data_nama_pengurus">
+        <item>Abigail</item>
+        <item>Bernadette</item>
+        <item>Carolyn</item>
+        <item>Emily</item>
+        <item>Gabrielle</item>
+        <item>Jasmine</item>
+        <item>Abigail</item>
+        <item>Bernadette</item>
+        <item>Carolyn</item>
+        <item>Emily</item>
+        <item>Gabrielle</item>
+        <item>Jasmine</item>
+    </string-array>
+
+    <string-array name="data_jabatan_pengurus">
+        <item>President</item>
+        <item>Vice Presidenr</item>
+        <item>Secretary</item>
+        <item>Accounting</item>
+        <item>Head of Public Relationship</item>
+        <item>Head of Developer Department</item>
+        <item>President</item>
+        <item>Vice Presidenr</item>
+        <item>Secretary</item>
+        <item>Accounting</item>
+        <item>Head of Public Relationship</item>
+        <item>Head of Developer Department</item>
+    </string-array>
+
+    <string-array name="data_alamat_pengurus">
+        <item>535 Bradford Court Uniondale, NY 11553</item>
+        <item>9471 Bowman Ave. Oak Park, MI 48237</item>
+        <item>9745 Thompson Avenue Copperas Cove, TX 76522</item>
+        <item>21 St Louis St.Silver Spring, MD 20901</item>
+        <item>7943 Vine Ave. Charlotte, NC 28205</item>
+        <item>622 Pearl Drive Sebastian, FL 32958</item>
+        <item>535 Bradford Court Uniondale, NY 11553</item>
+        <item>9471 Bowman Ave. Oak Park, MI 48237</item>
+        <item>9745 Thompson Avenue Copperas Cove, TX 76522</item>
+        <item>21 St Louis St.Silver Spring, MD 20901</item>
+        <item>7943 Vine Ave. Charlotte, NC 28205</item>
+        <item>622 Pearl Drive Sebastian, FL 32958</item>
+    </string-array>
+
+    <array name="data_photo_kegiatan">
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+        <item>@drawable/galeri_kt</item>
+    </array>
+
+    <string-array name="data_nama_kegiatan">
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+        <item>Penggalangan dana untuk warga kurang mampu</item>
+    </string-array>
+
+    <array name="data_deskripsi_kegiatan">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</item>
+    </array>
+
+    <string-array name="data_nama_humas">
+        <item>Abigail</item>
+        <item>Neneng</item>
+        <item>Carolyn</item>
+        <item>Emily</item>
+        <item>Gabrielle</item>
+        <item>Jasmine</item>
+        <item>Abigail</item>
+        <item>Bernadette</item>
+        <item>Carolyn</item>
+        <item>Emily</item>
+        <item>Gabrielle</item>
+        <item>Jasmine</item>
+    </string-array>
+
+    <string-array name="data_jabatan_humas">
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+        <item>Admin Humas</item>
+    </string-array>
+
+    <string-array name="data_whatsapp_humas">
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6289648003152</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+        <item>https://api.whatsapp.com/send?phone=+6281278042894</item>
+    </string-array>
+
+    <array name="data_photo_galeri">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/aa</item>
+        <item>@drawable/ab</item>
+        <item>@drawable/ac</item>
+        <item>@drawable/ad</item>
+        <item>@drawable/ae</item>
+        <item>@drawable/af</item>
+        <item>@drawable/ba</item>
+        <item>@drawable/bb</item>
+        <item>@drawable/bc</item>
+        <item>@drawable/bd</item>
+        <item>@drawable/be</item>
+        <item>@drawable/bf</item>
+        <item>@drawable/bh</item>
+        <item>@drawable/bi</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bj</item>
+        <item>@drawable/bk</item>
+        <item>@drawable/bl</item>
+        <item>@drawable/bm</item>
+        <item>@drawable/bn</item>
+        <item>@drawable/bo</item>
+        <item>@drawable/bp</item>
+        <item>@drawable/bq</item>
+        <item>@drawable/br</item>
+        <item>@drawable/bs</item>
+        <item>@drawable/bt</item>
+        <item>@drawable/bu</item>
+        <item>@drawable/bv</item>
+        <item>@drawable/bx</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+        <item>@drawable/j</item>
+        <item>@drawable/k</item>
+        <item>@drawable/l</item>
+        <item>@drawable/m</item>
+        <item>@drawable/n</item>
+        <item>@drawable/o</item>
+        <item>@drawable/p</item>
+    </array>
+
+</resources>

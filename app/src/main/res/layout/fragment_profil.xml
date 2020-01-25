@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Profil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:isScrollContainer="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fitsSystemWindows="true"
+            android:background="@color/mainColor"
+            app:elevation="0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            >
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:layout_height="?attr/actionBarSize"
+                android:minHeight="?attr/actionBarSize"
+                android:background="?android:attr/selectableItemBackground"
+                app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_24"
+                    android:text="@string/profil"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/mainColor"
+                android:scaleType="centerCrop" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/newlogo"
+                android:scaleType="fitXY"
+                android:layout_below="@id/iv_backdrop"
+                android:layout_marginTop="-40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="25dp"
+                app:riv_border_width="5dip"
+                app:riv_border_color="@color/mainColor"
+                app:riv_corner_radius="25dip"
+                app:riv_mutate_background="true"
+                app:riv_oval="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/iv_backdrop"
+                android:layout_toEndOf="@id/iv_logo">
+                <Button
+                    android:id="@+id/btn_kontak"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="end"
+                    android:padding="4dp"
+                    android:textColor="@color/mainColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/tv_btn_kontak"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/bg_button"
+                    android:layout_marginStart="0dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/karangtaruna"
+            android:textSize="@dimen/text_size_18"
+            android:layout_marginStart="25dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/textColor"
+            android:text="@string/deskripsi_karangtaruna"
+            android:layout_marginStart="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/lokasi"
+            android:layout_marginTop="16dp"
+            android:textSize="@dimen/text_size_16"
+            android:layout_marginStart="25dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/textColor"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/deskripsi_lokasi"
+            android:layout_marginStart="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="16dp"
+            android:text="@string/visi_karangtaruna"
+            android:textSize="@dimen/text_size_18"
+            android:layout_marginStart="25dp"
+            android:textStyle="bold"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:text="@string/visi_satu" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/misi_karangtaruna"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size_18"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="25dp"
+            android:textStyle="bold"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:textColor="@color/textColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/satu"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:text="@string/misi_satu" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="@color/textColor"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dua"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:text="@string/misi_dua" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"
+                    android:text="@string/tiga"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:text="@string/misi_tiga" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"
+                    android:text="@string/empat"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:text="@string/misi_empat" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"
+                    android:text="@string/lima"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:text="@string/misi_lima" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

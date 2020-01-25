@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/menu_profile"
+        android:icon="@drawable/ic_profile"/>
+    <item
+        android:title="@string/menu_pengurus"
+        android:icon="@drawable/ic_pengurus"/>
+    <item
+        android:title="@string/menu_kegiatan"
+        android:icon="@drawable/ic_kegiatan"/>
+    <item
+        android:title="@string/menu_galeri"
+        android:icon="@drawable/ic_galeri"/>
+    <item
+        android:title="@string/menu_hubungi"
+        android:icon="@drawable/ic_kontak"/>
+
+</menu>

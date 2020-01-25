@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Galeri">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fitsSystemWindows="true"
+        android:background="@color/mainColor"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?android:attr/selectableItemBackground"
+            app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_24"
+                android:text="@string/galeri"/>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_24"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/galeri_kt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/desk_galeri_kt"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_galeri"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/item_galeri"/>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_humas"
+            android:src="@drawable/pengurus_dummy"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            app:riv_corner_radius="25dip"
+            app:riv_mutate_background="true"
+            app:riv_oval="false" />
+        <!--        <com.github.siyamed.shapeimageview.RoundedImageView-->
+        <!--            android:id="@+id/iv_pengurus"-->
+        <!--            android:layout_width="65dp"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:src="@drawable/pengurus_dummy"-->
+        <!--            app:siRadius="25dp"-->
+        <!--            app:siSquare="true"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_nama_humas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                tools:text="@string/tv_nama_pengurus" />
+            <TextView
+                android:id="@+id/tv_jabatan_humas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="@string/tv_jabatan"/>
+            <Button
+                android:id="@+id/btn_hubungi"
+                android:layout_width="99dp"
+                android:layout_height="31dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:text="@string/tv_btn_kontak"
+                android:layout_gravity="end"
+                android:background="@drawable/btn_cover"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/gray_background_trans"/>
+
+</LinearLayout>
